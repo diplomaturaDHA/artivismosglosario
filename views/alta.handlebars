@@ -1,0 +1,19 @@
+<h1>Alta glosario</h1>
+
+<ul>
+  <li>this is always there</li>
+  {{#each messages}}
+  <li style="font-style:italic">{{id}}: {{titulo}} : {{descripcion}} : {{autor}}: {{letra}}</li>
+  {{/each}}
+</ul>
+
+<a href="/">home</a>
+
+<form action="/message" method="post">
+  <label for="messageText">message:</label>
+  <input type="text" id="messageText" name="messageText" />
+  <textarea id="descripcionText" name="descripcionText" ></textarea>
+  <input type="autor" id="autorText" name="autorText" />
+   <input type="letra" id="letraText" name="letraText" />
+  <button type="submit">send</button>
+</form>
