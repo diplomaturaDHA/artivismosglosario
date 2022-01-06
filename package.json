@@ -1,0 +1,22 @@
+{
+  "name": "web-application-video",
+  "version": "1.0.0",
+  "description": "Over the course of several videos, we'll be building an authenticated message board from scratch with Express, Handlebars, and SQLite. This series is aimed at people who are familiar with programming but new to web development.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "esm": "^3.2.25",
+    "express": "^4.17.2",
+    "express-handlebars": "^5.3.2",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  }
+}
